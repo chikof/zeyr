@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@kaname-png/plugin-subcommands-advanced':
     specifier: ^2.2.1
@@ -33,7 +37,7 @@ dependencies:
     version: 3.0.2
   '@sapphire/plugin-logger':
     specifier: ^3.0.1
-    version: 3.0.3
+    version: 3.0.7
   '@sapphire/plugin-subcommands':
     specifier: ^4.0.0
     version: 4.0.1
@@ -327,13 +331,12 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@sapphire/plugin-logger@3.0.3:
-    resolution: {integrity: sha512-pBEQhXi3PWPpXxfljg7pLYoI99gO6iyA9rCy6ntBttrJiM1ZirnaSm6p1/uon3/T4gW0poauFS44+S3Jf4MSZA==}
-    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+  /@sapphire/plugin-logger@3.0.7:
+    resolution: {integrity: sha512-QNQRHMgvyxhBNdYBktIfAQvNdsvzYd6vVWCvnggrcN56mvXJyolZaPkDcUNh3PdtjcB7XTChpynbLlTby2vsyQ==}
+    engines: {node: '>=v18', npm: '>=7'}
     dependencies:
-      '@sapphire/timestamp': 1.0.1
-      colorette: 2.0.19
-      tslib: 2.5.0
+      '@sapphire/timestamp': 1.0.5
+      colorette: 2.0.20
     dev: false
 
   /@sapphire/plugin-subcommands@4.0.1:
@@ -391,6 +394,11 @@ packages:
 
   /@sapphire/timestamp@1.0.1:
     resolution: {integrity: sha512-uLg+rBFuBiaQY/pFGDDzZSOH2cfv4ONIB7zQGNuRCTpYKBW/iIhRBIZjJZyn8NVkXQhVi+Q94DI4i6gDhYVs7w==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dev: false
+
+  /@sapphire/timestamp@1.0.5:
+    resolution: {integrity: sha512-oNwWyNdbt5wm4aYZvlHl1+64U3g0xrFmRIHsnER7RgMxNnp/wmAE4yTK2oUHeadg3t4V9iYctPAQCF+aINke4g==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -551,6 +559,11 @@ packages:
 
   /colorette@2.0.19:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
+    dev: true
+
+  /colorette@2.0.20:
+    resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
+    dev: false
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
