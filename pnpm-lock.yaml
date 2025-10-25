@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@kaname-png/plugin-subcommands-advanced':
     specifier: ^2.2.1
@@ -56,7 +60,7 @@ dependencies:
 devDependencies:
   '@sapphire/ts-config':
     specifier: ^4.0.0
-    version: 4.0.0
+    version: 4.0.1
   '@types/node':
     specifier: latest
     version: 18.15.11
@@ -394,12 +398,12 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/ts-config@4.0.0:
-    resolution: {integrity: sha512-0KH37vhrQwcaZIE1JMcEw+dapbHD+yDb5rmyKz4lHjua3D4j1qPDEzygFiPh7NdDM0O7HjKgozeo63jjCHfN2A==}
+  /@sapphire/ts-config@4.0.1:
+    resolution: {integrity: sha512-iNnMBpWDQRq41skWl1QKrKKz918Iw3lIf9/eVx1z4iQl+2c1GIuNDGkvzSjR58DfCMZjUWHpbuNozOsxaHQ5RQ==}
     engines: {node: '>=v16.0.0', npm: '>=8.0.0'}
     dependencies:
-      tslib: 2.5.0
-      typescript: 5.0.4
+      tslib: 2.8.1
+      typescript: 5.9.3
     dev: true
 
   /@sapphire/type@2.3.0:
@@ -1626,6 +1630,10 @@ packages:
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+    dev: true
+
   /typed-array-length@1.0.4:
     resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
     dependencies:
@@ -1637,6 +1645,12 @@ packages:
   /typescript@5.0.4:
     resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
     engines: {node: '>=12.20'}
+    hasBin: true
+    dev: true
+
+  /typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
